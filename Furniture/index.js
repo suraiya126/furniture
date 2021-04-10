@@ -108,7 +108,8 @@ const depth12 = document.getElementById('depth-12')
 /* Start Door selector */
 const door = document.getElementById('door')
 const endDoor = document.getElementById('endDoor')
-const sameToSide = document.getElementById('sameToSide')
+const sameToSide1 = document.getElementById('side-1')
+const sameToSide2 = document.getElementById('side-2')
 /* End Door selector */
 
 
@@ -205,5 +206,6 @@ depth12.addEventListener('click', changedDepth)
 
 /* Start Door */
 endDoor.addEventListener('click', changedDoor)
-sameToSide.addEventListener('click', changedDoor)
+sameToSide1.addEventListener('click', changedDoor)
+sameToSide2.addEventListener('click', changedDoor)
 /* End Door */
