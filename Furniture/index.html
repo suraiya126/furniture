@@ -27,8 +27,15 @@
       visibility: hidden;
     }
 
-    #side {
+    .side {
       visibility: hidden;
+    }
+
+    .mr-top {
+      margin-top: 42px;
+    }
+    #side-1{
+      z-index: 11
     }
   </style>
 </head>
@@ -44,9 +51,12 @@
         src="https://res.cloudinary.com/dltd4gs4a/image/upload/v1618035391/Local/bedbase_3ft_14i_34_xyfl8g.webp" />
       <img class="dynamic_image_items dis-h" id="door" width="776px" height="550px"
         src='https://res.cloudinary.com/dltd4gs4a/image/upload/v1618045262/Local/reference_drawer_jumbo_200_drawer_jumbo_front_14i34_ycsiig.png' />
-      <img class="dynamic_image_items" id="side-1 side" width="776px" height="550px" />
-      <img class="dynamic_image_items" id="side-1 side" width="776px" height="550px" />
-
+      <img class="dynamic_image_items side" id="side-1"
+        src="https://res.cloudinary.com/dltd4gs4a/image/upload/v1618035391/Local/bedbase_3ft_14i_34_xyfl8g.webp" width="776px"
+        height="550px" />
+      <img class="dynamic_image_items side" id="side-2"
+        src="https://res.cloudinary.com/dltd4gs4a/image/upload/v1618035391/Local/bedbase_3ft_14i_34_xyfl8g.webp" width="776px"
+        height="550px" />
     </div>
     <div>
       <!-- According Bootstrap -->
@@ -135,6 +145,7 @@
                 End Door
               </button>
               <button id="sameToSide" data-door="same2Side">Same 2 side</button>
+              <button id="drawerSide2End" data-door="drawerSide2End">2 side Drawers with End drawer</button>
             </div>
           </div>
         </div>
